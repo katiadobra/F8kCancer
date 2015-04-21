@@ -1,27 +1,15 @@
 # fc project 
 
---
+## How to build the project
 
-## Как собрать проект
+### 1. Install [Git](http://git-scm.com/), [Node.js](http://nodejs.org/) и [Grunt](http://gruntjs.com/)
 
-### 1. Установить [Git](http://git-scm.com/), [Node.js](http://nodejs.org/) и [Grunt](http://gruntjs.com/)
+### 2. Go to the project folder
 
-### 2. Перейти в папку проекта
+### 3. Install npm and Grunt plugins
 
-В консоли перейти в папку скачанного либо клонированного репозитория
+In the console enter commands `npm i` and `npm i grunt`
 
-### 3. Установить плагины Grunt
+### 4. Build project
 
-В консоли ввести команду `npm i`
-
-### 4. Собрать проект
-
-В консоли ввести команду `grunt b`. Появится папка готового проекта `build`
-
-### Другие задачи в Gruntfile.js
-
-grunt style - препроцессор, автопрефиксер, объединение медиавыражений, минификация стилей;
-grunt script - конкатинация и минификация скриптов;
-grunt lint - отладчик html;
-grunt img - минификация изображений;
-grunt svg - минификация svg и grunticon
+In the console enter the command `grunt b`. Ready project folder `build`
