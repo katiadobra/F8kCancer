@@ -1,0 +1,69 @@
+.page-wrap * {
+  box-sizing: border-box;
+}
+.page-wrap *:before,
+.page-wrap *:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  min-width: 300px;
+  font-family: @ff-base;
+  font-size: @fz-base;
+  line-height: @lh-base;
+  color: @text-color;
+  background-color: @body-bg;
+  overflow-x: hidden;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+img {
+  vertical-align: middle;
+}
+
+
+.page-main {
+  overflow: hidden;
+}
+
+
+a {
+  color: @link-color;
+  text-decoration: none;
+  
+  &:hover,
+  &:focus {
+    color: @link-hover-color;
+    text-decoration: underline;
+  }
+
+  &:visited {
+    text-decoration: none;
+  }
+
+  &:active,
+  &.active {
+    .color(@base-color, 70%);
+    text-decoration: none;
+  }
+}
+
+table {
+  background-color: transparent;
+
+  td {
+    border: 2px solid @grey;
+    padding: 5px 10px;
+  }
+}

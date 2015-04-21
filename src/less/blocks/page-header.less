@@ -1,0 +1,61 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+.header-wrapper {
+  position: relative;
+  max-width: 1142px;
+  margin: 0 auto;
+  padding: 19px 78px 10px 80px;
+}
+.header-fixed {
+  position: fixed;
+  background: #161616;
+  opacity: .93;
+  z-index: 1000;
+  height: 80px;
+}
+.header-logo {
+  float: left;
+  max-width: 190px;
+  line-height: 32px;
+}
+.header-logo img {
+  width: 100%;
+  padding-top: 12px;
+}
+.navbar-collapse {
+  float: right;
+  width: 277px;
+}
+.navbar-nav {
+  text-align: right;
+}
+.navbar-nav li {
+  position: relative;
+  display: inline-block;
+  font: 16px/1 'josefin_sanssemibolditalic', Arial, sans-serif;
+  letter-spacing: -1px;
+  color: #fff;
+  text-transform: uppercase;
+  z-index: 5;
+}
+.navbar-nav li > a,
+.navbar-nav li > span {
+  padding: 11px 15px 10px;
+  margin-right: 12px;
+  color: #fff;
+}
+.navbar-nav li > .navbar-toggle {
+  margin-right: 2px;
+  padding: 6px 15px 10px;
+  margin-left: 13px;
+  cursor: pointer;
+  background: url(../img/open.png) 0 0 no-repeat;
+}
+.navbar-nav .navbar-toggle.open {
+  background: url(../img/close.png) 0 0 no-repeat;
+}
