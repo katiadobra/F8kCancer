@@ -2,7 +2,7 @@
 
 ## How to build the project
 
-### 1. Install [Git](http://git-scm.com/), [Node.js](http://nodejs.org/) и [Grunt](http://gruntjs.com/)
+### 1. Install [Git](http://git-scm.com/), [Node.js](http://nodejs.org/) and [Grunt](http://gruntjs.com/)
 
 ### 2. Go to the project folder
 
